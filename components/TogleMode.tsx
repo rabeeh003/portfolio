@@ -4,9 +4,9 @@ import { useTheme } from "next-themes";
 import { Moon, Sun } from "lucide-react";
 import { Button } from "./ui/button";
 
-const ToggleMode = () => {
+const ToggleMode = (): JSX.Element => {
   const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
+  const [mounted, setMounted] = useState<boolean>(false);
 
   useEffect(() => {
     setMounted(true);
@@ -16,7 +16,7 @@ const ToggleMode = () => {
     return <Button variant="secondary" size="icon" disabled={true}></Button>;
   }
 
-  const dark = theme === "dark";
+  const dark: boolean = theme === "dark";
 
   return (
     <Button
