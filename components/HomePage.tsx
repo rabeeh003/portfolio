@@ -13,11 +13,9 @@ function HomePage() {
         <Image className='absolute bottom-0 left-0 w-[38%] rounded-md' src={Cutout} alt='bgImg1' />
         <h1 className='absolute top-0 font-semibold right-0 text-[2rem] font-mono [text-shadow:0_1px_0_rgba(255,_255,_255,_0.4)]' >Discover my Amazing Art Space!</h1>
       </div>
-      {/* about section */}
-      <h3 className='text-lg font-semibold my-6'>About</h3>
-      <div className='bg-primary-foreground opacity-25'>
-        <p className='text-pretty'>Hello! I am Muhammed Rabeeh from Malappuram, Kerala. I am a full-stack developer using Python and Django, and I am proficient in MERN stack as well. I completed my secondary education from NIOS (National Institute of Open School). I pursued my graduation in BA Arabic from Calicut University, and for the previous 8 years, I studied at Islamic College named Jamia Mahiriyya, affiliated with Jamia Nooriya. Unfortunately, I didn't complete my graduation as I focused on self-learning coding during this period. After that, I joined Brocamb.</p>
-      </div>
+      {/* projects section */}
+      <h3 className='text-lg font-semibold my-6'>Updates</h3>
+      
     </div>
   )
 }
