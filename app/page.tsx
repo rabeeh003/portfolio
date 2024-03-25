@@ -4,10 +4,10 @@ import HomePage from "@/components/HomePage";
 import SideNav from "@/components/SideNav";
 export default function Home() {
   return (
-    <main className="flex justify-center pt-3">
-      <Profile/>
-      <HomePage/>
+    <main className="container flex justify-center pt-3">
       <SideNav/>
+      <HomePage/>
+      <Profile/>
     </main>
   );
 }
