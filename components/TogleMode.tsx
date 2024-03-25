@@ -6,11 +6,11 @@ import { Button } from "./ui/button";
 
 const ToggleMode = (): JSX.Element => {
   const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState<boolean>(false);
+  const [mounted, setMounted] = useState<boolean>(true);
 
-  useEffect(() => {
-    setMounted(true);
-  });
+  // useEffect(() => {
+  //   setMounted(true);
+  // });
 
   if (!mounted) {
     return <Button variant="secondary" size="icon" disabled={true}></Button>;
