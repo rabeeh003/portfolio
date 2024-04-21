@@ -14,7 +14,7 @@ function Profile(): JSX.Element {
     <div className='w-[300px] h-[95vh] rounded-md bg-primary-foreground shadow-md pt-3 hidden lg:block max-w-[1000px]'>
       
       <div className="profile flex justify-center py-3">
-        <Image width={100} height={100} className='rounded-full w-2/4' src='/Images/rabeeh.webp' alt="Profile" />
+        <Image width={100} height={100} className='rounded-full object-cover w-[150px] h-[150px]' src='/Images/rabeeh.jpeg' alt="Profile" />
       </div>
       <h2 className='text-center font-mono text-xl'>Muhammed Rabeeh PK</h2>
       <h5 className='text-center font-mono text-gray-600'>Full-stach devloper</h5>

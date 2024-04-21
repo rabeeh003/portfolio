@@ -4,7 +4,7 @@ import HomePage from "@/components/HomePage";
 import SideNav from "@/components/SideNav";
 export default function Home() {
   return (
-    <main className="container flex justify-center pt-3">
+    <main className="my-auto flex justify-center pt-3">
       <SideNav/>
       <HomePage/>
       <Profile/>

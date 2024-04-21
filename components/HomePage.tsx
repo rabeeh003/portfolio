@@ -15,7 +15,7 @@ function HomePage() {
         <div className='absolute bottom-6 opacity-15 rounded-md right-0 h-[300px] w-[90%] bg-white border border-t-2 '></div>
         <Image className='absolute bottom-0 w-[100%] h-[300px] rounded-md' width={100} height={100} src={"/Images/mala2.jpg"} alt='bgImg1' />
         <Image className='absolute bottom-0 left-0 w-[38%] rounded-md' src={Cutout} alt='bgImg1' />
-        <h1 className='absolute top-0 font-semibold right-0 text-[2rem] font-mono [text-shadow:0_1px_0_rgba(255,_255,_255,_0.4)]' >Discover my Amazing Art Space!</h1>
+        <h1 className='absolute top-0 right-4 text-[2rem] font-mono [text-shadow:0_1px_0_rgba(255,_255,_255,_0.4)] animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black' >Hy, i am Rabeeh PK</h1>
       </div>
       {/* projects */}
       <div className='flex justify-between my-4 mt-4'>
